@@ -1,0 +1,33 @@
+##SSH Authentication 
+
+1- import pub  key into git hub got to settings and import from there
+
+.ssh folder in a user directory create a file called config without any extension 
+
+syntax
+
+Host github.com
+    HostName github.com
+    user git
+    IdentityFile ~/.ssh/<PEMFILENAME>.PEMFILENAME
+
+Host github.com
+    HostName github.com
+    user git
+    IdentityFile ~/.ssh/gitredko4u.pem
+
+## If Having Mutiple Account
+
+Host github.com-anotheraccount
+    HostName github.com
+    user git
+    IdentityFile ~/.ssh/<PEMFILENAME>.PEMFILENAME
+
+   // E:\Devops\repos//
+
+
+   <<<<<<<<<<<If You Already Having A Repo/Foler How Do You Add It On Git >>>>>>>>>>>>
+
+
+
+
